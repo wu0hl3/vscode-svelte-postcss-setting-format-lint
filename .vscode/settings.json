@@ -1,0 +1,69 @@
+{
+	//sveltekit專用的vscode設定
+	"workbench.editor.labelFormat": "short",
+	"workbench.tree.indent": 16,
+	"explorer.sortOrder": "filesFirst",
+	"explorer.compactFolders": false,
+
+	//svelte設定
+	"svelte.enable-ts-plugin": true,
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+
+	//eslint
+	"eslint.enable": true,
+	"eslint.validate": ["js", "html"],
+
+	//prettier
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	//stylelint
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"stylelint.enable": true,
+	"stylelint.validate": ["css", "postcss", "html", "svelte"],
+
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.stylelint": true
+	},
+
+	//postcss
+	"emmet.includeLanguages": {
+		"postcss": "css"
+	},
+
+	//vscode外觀設定
+	"editor.fontSize": 16,
+	"editor.lineHeight": 22,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 100,
+	"editor.bracketPairColorization.enabled": true,
+
+	"workbench.colorTheme": "One Dark Pro",
+	"workbench.sideBar.location": "left",
+	"workbench.startupEditor": "none",
+	"explorer.confirmDelete": false,
+
+	//One Dark Pro
+	"oneDarkPro.editorTheme": "One Dark Pro",
+	"editor.tokenColorCustomizations": {
+		"[One Dark Pro]": {
+			"textMateRules": [
+				{
+					"scope": ["source.python"],
+					"settings": {
+						"foreground": "#e06c75"
+					}
+				}
+			]
+		}
+	}
+}
