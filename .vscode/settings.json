@@ -68,6 +68,6 @@
 	},
 	"explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "README.MD": ".^eslint,.editorconfig,.eslint*,.prettier*,.stylelint*,*.config.js"
+    "README.MD": ".^eslint,.editorconfig,.eslint*,.prettier*,.stylelint*,*.config.js,*ignore"
   }
 }
